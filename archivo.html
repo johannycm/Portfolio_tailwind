@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Johanny Colman</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body class="min-h-screen bg-gradient-to-tr from-cyan-700 via-emerald-600 to-slate-700">
+  <!-- Navbar -->
+  <nav class="flex w-full h-[80px] justify-between items-center px-4 md:px-12 text-white font-bold">
+    <img class="hidden md:block w-[40px] lg:w-[50px]" src="./archivos/icon.png" alt="logo">
+    <div class="flex w-full md:w-[200px] text-[#3bba9c] gap-4 md:gap-5 justify-center md:justify-between">
+      <button class="text-[18px] lg:text-[20px] border-b-0 hover:border-b-4 p-2 lg:p-4 transition-all">Services</button>
+      <button class="text-[18px] lg:text-[20px] border-b-0 hover:border-b-4 p-2 lg:p-4 transition-all">Work</button>
+      <button class="text-[18px] lg:text-[20px] border-b-0 hover:border-b-4 p-2 lg:p-4 transition-all">About</button>
+    </div>
+    <button class="bg-[#3bba9c] shadow-lg text-[#2E3047] text-[18px] lg:text-[20px] p-2 lg:p-3 rounded-lg transform transition-transform duration-300 hover:scale-110">Let's talk!</button>
+  </nav>
+  <!-- Header Section -->
+  <header class="text-white bg-cover flex flex-col items-center gap-6 text-center px-4">
+    <h1 id="typing" class="text-[60px] sm:text-[100px] lg:text-[150px] mt-16 lg:mt-24">Johanny Colman</h1>
+    <p class="text-[16px] sm:text-[20px] lg:text-[25px] max-w-4xl">Full-Stack Web Developer and Designer focused on crafting intuitive and engaging web interfaces</p>
+    <button class="bg-[#3bba9c] shadow-lg text-[#2E3047] text-[16px] sm:text-[20px] mt-6 sm:mt-9 p-3 rounded-lg mb-16 sm:mb-32 font-bold transform transition-transform duration-300 hover:scale-110">
+      Get in touch</button>
+  </header>
+
+  <section class="grid grid-cols-1 lg:grid-cols-4 h-[100vh] min-h-[800px] lg:ml-12 lg:min-h-[600px] py-16 px-8 text-white">
+    <div class="col-span-3 flex flex-col items-center lg:items-start p-4" data-aos="fade-up" data-aos-duration="3000">
+      <h1 class="text-[40px] sm:text-[60px] lg:text-[100px] text-white" data-aos="fade-up" data-aos-anchor-placement="bottom-center">What I Offer.</h1>
+      <p class="text-[16px] sm:text-[20px] text-justify lg:text-[30px] text-center lg:text-left">Launch your online business with seamless web design, robust business systems, and compelling brand assets. We provide everything you need to thrive and succeed.</p>
+      <img class="w-16 sm:w-24 mt-6 lg:mt-9" src="./archivos/code.png" alt="">
+    </div>
+    <div class="w-full lg:w-96 flex flex-col items-center lg:items-start text-[16px] sm:text-[20px] lg:text-[25px] mt-9 mb-12 lg:mb-24">
+      <h2 class="border-4 p-2 lg:p-4 rounded-lg m-4 cursor-pointer bg-transparent text-white hover:bg-white hover:text-emerald-600 transition duration-300" data-aos="fade-up">Web Design</h2>
+      <h2 class="border-4 p-2 lg:p-4 rounded-lg m-4 cursor-pointer bg-transparent text-white hover:bg-white hover:text-emerald-600 transition duration-300" data-aos="fade-up">System Design</h2>
+      <h2 class="border-4 p-2 lg:p-4 rounded-lg m-4 cursor-pointer bg-transparent text-white hover:bg-white hover:text-emerald-600 transition duration-300" data-aos="fade-up">Brand Assets</h2>
+      <h2 class="border-4 p-2 lg:p-4 rounded-lg m-4 cursor-pointer bg-transparent text-white hover:bg-white hover:text-emerald-600 transition duration-300" data-aos="fade-up">Graphic Design</h2>
+    </div>
+  </section>
+
+  <section class="sm:mt-12">
+    <h1 class="text-[40px] sm:text-[60px] lg:text-[100px] text-white text-center" data-aos="fade-up" data-aos-anchor-placement="bottom-center">What I've done.</h1>
+    <div  id="container" class="flex flex-col lg:flex-row justify-center space-y-6 lg:space-y-0 lg:space-x-14 text-white items-center mt-6 lg:mt-9 sm: p-4">
+      <img class="w-full drop-shadow-[0_35px_35px_rgba(86,425,155,0.5)] lg:w-2/5 border-4 rounded-lg" data-aos="fade-up" src="./archivos/Freakframe.png" alt="">
+      <div class="w-full lg:w-2/5 flex-col text-[16px] sm:text-[20px] p-4 lg:text-[25px]" data-aos="fade-left">
+        <h1>framefreak</h1>
+        <p class="mt-4 sm:mt-6">Framefreaks designs frames so that nerds can decorate their spaces in the geekiest style with series, movies, and music from pop culture.</p>
+        <h1 class="mt-4 sm:mt-6 cursor-pointer">
+          <a href="http://framefreak.infinityfreeapp.com/1/?i=1" target="_blank" class="bi-arrow-right text-white no-underline hover:underline">
+              Visit framefreak
+          </a>
+        </h1>
+      </div>
+    </div>
+
+    <div id="container" class="flex flex-col lg:flex-row justify-center space-y-6 sm: lg:space-y-0 lg:space-x-14 text-white items-center mt-6 lg:mt-9 sm: p-4">
+      <img class="w-full lg:w-2/5 drop-shadow-[0_35px_35px_rgba(86,425,155,0.5)] border-4 rounded-lg data-aos=" data-aos="fade-up" src="./archivos/Renee.png" alt="">
+      <div class="w-full lg:w-2/5 flex-col text-[16px] sm:text-[20px] p-4 lg:text-[25px]" data-aos="fade-left">
+        <h1>Reneé Rapp</h1>
+        <p class="mt-4 sm:mt-6">Reneé Rapp is an American actress and singer known for her breakout role as Regina George in Broadway's Mean Girls. After winning the 2018 Jimmy Award, she expanded her career into music, blending pop with soulful vocals. Reneé is a rising star in both theater and the music industry.</p>
+        <h1 class="mt-4 sm:mt-6 cursor-pointer">
+          <a href="https://johannycm.github.io/PROYECTO.CSS/" target="_blank" class="bi-arrow-right text-white no-underline hover:underline">
+              Visit Reneé Rapp
+          </a>
+        </h1>
+      </div>
+    </div>
+
+    <div id="container" class="flex flex-col lg:flex-row justify-center space-y-6 lg:space-y-0 lg:space-x-14 text-white items-center mt-6 lg:mt-9 sm: p-4">
+      <img class="w-full lg:w-2/5 drop-shadow-[0_35px_35px_rgba(86,425,155,0.5)] border-4 rounded-lg" data-aos="fade-up" src="./archivos/club.png" alt="">
+      <div class="w-full lg:w-2/5 flex-col text-[16px] sm:text-[20px] p-4 lg:text-[25px]" data-aos="fade-left">
+        <h1>Twinkling stars</h1>
+        <p class="mt-4 sm:mt-6">Our book club is more than just a gathering; it's a sanctuary for literature enthusiasts who crave the connection between words and nature. Picture this: a cozy circle of chairs nestled under the canopy of trees, the scent of earth mingling with the aroma of freshly brewed coffee or tea.</p>
+        <h1 class="mt-4 sm:mt-6 cursor-pointer">
+          <a href="https://johannycm.github.io/PROYECTO-TAILWIND/" target="_blank" class="bi-arrow-right text-white no-underline hover:underline">
+              Visit Twinkling stars
+          </a>
+        </h1>
+      </div>
+    </div>
+  </section>
+
+  <section class="h-[100vh] min-h-[1000px] sm:min-h-[1200px] lg:min-h-[600px] flex flex-col lg:flex-row justify-center sm:m-0 text-white items-center p-4 lg:p-0 ">
+    <div class="lg:w-2/4 flex flex-col items-center lg:items-start p-4" data-aos="fade-up" data-aos-duration="3000">
+      <h1 class="text-[40px] sm:text-[60px] lg:text-[100px] text-white">About Me.</h1>
+      <p class="text-[12px] sm:text-[20px] mt-4 text-justify lg:text-[24px] text-center lg:text-left">I'm Johanny Colman, a 24-year-old graphic designer and web developer with experience in front-end development, web design, and video editing. My passion for both design and coding started at a young age. I began my career focusing on graphic design, mastering tools like Illustrator and Photoshop, and over time, I expanded my expertise to include web technologies such as HTML, CSS, and JavaScript.</p>
+      <img class="w-16 sm: hidden mt-6 lg:mt-9" src="./archivos/design icon.png" alt="">
+    </div>
+    <div class="w-full lg:w-96 flex-col">
+      <img class="drop-shadow-[0_35px_35px_rgba(86,425,155,0.5)]" data-aos="fade-left" src="./archivos/foto.png" alt="">
+    </div>
+  </section>
+  <footer class="text-white text-[18px] p-4 sm: text-center">Proudly built with tremendoflow © 2024 Johanny Colman</footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
