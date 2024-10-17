@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Langita';
+  src: url('./archivos/Langita.woff') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+h1 {
+  font-family: langita;
+}
+
+body, footer {
+  font-family: "Montserrat", sans-serif;
+}
+
